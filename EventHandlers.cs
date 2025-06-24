@@ -36,6 +36,7 @@ namespace SCP_1162_Exiled
             else
             {
                 args.Player.ShowHint(Scp1162.Instance.Config.HintOnReject);
+                return;
             }
 
             Item item;
